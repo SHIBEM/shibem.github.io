@@ -4,18 +4,196 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SHIBEM</title>
-	<link rel="icon" href="/shibem.png">
+	<link rel="icon" href="/shibem_32x32.png">
     <meta name="description" content="SHIBA ELON MARS">
     <meta name="keywords" content="SHIBA ELON MARS, SHIBEM, SHIB, SHIBA, DOGE, SHIBA INU">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+	
+<style type="text/css">
+
+
+	body{
+    color:white;
+		font-family: sans-serif;
+		text-align: center;
+	}
+    
+    .icon img{
+    	width: 25%;
+    }
+
+    .icon_other img{
+    	height: 15px;
+    }
+
+    .icon_other a{
+    	padding: 2px;
+    	background: white;
+		border-radius: 5px;
+
+    }
+
+    .icon_other a:hover{
+    	background: orangered;
+    }
+
+    .dexnweb p{
+    	display: inline-block;
+    }
+
+	.main_wrapper{
+		margin-top: 10%;
+        z-index:3;
+        position:relative;
+        background: rgba(0,0,0,0.3);
+        padding:20px;
+        margin-left:10px;
+        margin-right:10px;
+		border-radius: 10px;
+        
+	}
+		
+    
+		h2{
+		}
+    
+		a{
+			text-decoration: none;
+			color: yellow;
+		}
+
+		a:hover{
+			color: orangered;
+		}
+        
+		
+        
+        @keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+@-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+@-moz-keyframes move-background {    
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+    @-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to { 
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+.background-container{
+  position: fixed;
+  top: 0;
+  left:0;
+  bottom: 0;
+  right: 0;
+}
+
+.stars {
+ background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+ position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+    z-index: 0;
+}
+
+.twinkling{
+  width:10000px;
+  height: 100%;
+  background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+  background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    
+    -moz-animation:move-background 70s linear infinite;
+  -ms-animation:move-background 70s linear infinite;
+  -o-animation:move-background 70s linear infinite;
+  -webkit-animation:move-background 70s linear infinite;
+  animation:move-background 70s linear infinite;
+  
+}
+
+.clouds{
+  width:10000px;
+  height: 100%;
+  background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+  background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+
+   -moz-animation:move-background 150s linear infinite;
+  -ms-animation:move-background 150s linear infinite;
+  -o-animation:move-background 150s linear infinite;
+  -webkit-animation:move-background 150s linear infinite;
+  animation:move-background 150s linear infinite;
+}
+.moon{
+  height: 70vh;
+  width:70vh;
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+}
+
+</style>
 <body>
 
+<div class="main_wrapper">
+<div class="icon"><img src="https://shibem.github.io/shibem.png"></div>
 <h1>WELCOME TO SHIBA ELON MARS</h1>
 <h2>SHIBEM</h2>
 
-<p>bscscan: <a target="_blank" href="https://bscscan.com/token/0x047AdB9e29d831ef252AF08719040e26235861F3">0x047AdB9e29d831ef252AF08719040e26235861F3</a></p>
-	<p>contact: <a href="shibem.coin@gmail.com">shibem.coin@gmail.com</a></p>
+<p>contract: <a target="_blank" href="https://bscscan.com/token/0x047AdB9e29d831ef252AF08719040e26235861F3">0x047AdB9e29d831ef252AF08719040e26235861F3</a></p>
+<p>contact: <a href="shibem.coin@gmail.com">shibem.coin@gmail.com</a></p>
+
+<div class="dexnweb">
+<p class="icon_other"><a taget="_blank" href="https://nomics.com/assets/shibem-shiba-elon-mars"><img src="https://shibem.github.io/Nomics.png"></a></p>
+
+<p class="icon_other"><a taget="_blank" href="https://bscscan.com/token/0x047AdB9e29d831ef252AF08719040e26235861F3"><img src="https://shibem.github.io/bscscan.png"></a></p>
+
+<p class="icon_other"><a taget="_blank" href="https://pancakeswap.finance/info/token/0x047adb9e29d831ef252af08719040e26235861f3"><img src="https://shibem.github.io/pancakeswap.png"></a></p>
+</div>
+</div>
+
+<div>
+<div class="background-container">
+<img class="moon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
+<div class="stars"></div>
+<div class="twinkling"></div>
+<div class="clouds"></div>
+</div>
 
 </body>
 </html>
